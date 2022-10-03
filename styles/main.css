@@ -1,0 +1,7 @@
+:root {
+  --menu-color: #4a4a4a;
+  --page-background-color: #3cdbc0;
+  --text-color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
