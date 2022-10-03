@@ -7,6 +7,10 @@
 }
 .header {
   text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--text-color);
+  z-index: 100;
 }
 
 .logo {
@@ -35,6 +39,20 @@
   padding-left: 10px;
 }
 
+.main {
+  background-color: var(--page-background-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
 .content {
   font-size: 30px;
+  color: var(--text-color);
+  text-align: center;
+  font-weight: bold;
+  line-height: 35px;
 }
