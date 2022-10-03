@@ -5,3 +5,36 @@
   font-family: "Rubik", sans-serif;
   box-sizing: border-box;
 }
+.header {
+  text-align: center;
+}
+
+.logo {
+  width: 155px;
+  padding: 10px 0;
+}
+.link-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 13px;
+}
+
+.link {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--menu-color);
+}
+.link:hover {
+  color: var(--page-background-color);
+}
+
+.blog {
+  padding-right: 10px;
+}
+.contact {
+  padding-left: 10px;
+}
+
+.content {
+  font-size: 30px;
+}
