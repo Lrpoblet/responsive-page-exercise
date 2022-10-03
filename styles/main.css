@@ -56,3 +56,25 @@
   font-weight: bold;
   line-height: 35px;
 }
+
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .link-container {
+    padding: 0;
+  }
+
+  .content {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
