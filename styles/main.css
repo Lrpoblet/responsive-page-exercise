@@ -5,8 +5,11 @@
   font-family: "Rubik", sans-serif;
   box-sizing: border-box;
 }
+
 .header {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: sticky;
   top: 0;
   background-color: var(--text-color);
@@ -17,6 +20,7 @@
   width: 155px;
   padding: 10px 0;
 }
+
 .link-container {
   display: flex;
   justify-content: center;
@@ -28,6 +32,7 @@
   text-decoration: none;
   color: var(--menu-color);
 }
+
 .link:hover {
   color: var(--page-background-color);
 }
@@ -35,6 +40,7 @@
 .blog {
   padding-right: 10px;
 }
+
 .contact {
   padding-left: 10px;
 }
@@ -59,14 +65,9 @@
 
 @media all and (min-width: 768px) {
   .header {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 20px 30px;
-  }
-
-  .menu {
-    display: flex;
-    align-items: center;
   }
 
   .link-container {
